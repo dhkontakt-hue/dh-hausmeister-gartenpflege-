@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="D.H. Hausmeister & Gartenpflege – zuverlässige Dienstleistungen rund um Haus und Garten.">
+  <title>D.H. Hausmeister & Gartenpflege</title>
+  <style>
+    :root { --green: #1f6b45; --dark: #173b2a; --light: #f3f8f4; --text: #24332a; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: Arial, Helvetica, sans-serif; color: var(--text); line-height: 1.6; background: #fff; }
+    header { background: var(--green); color: white; padding: 22px 20px; }
+    .wrap { width: min(1100px, 92%); margin: 0 auto; }
+    .brand { display: flex; align-items: center; gap: 14px; }
+    .logo { width: 54px; height: 54px; border: 2px solid white; border-radius: 12px; display: grid; place-items: center; font-weight: 800; font-size: 18px; }
+    header h1 { margin: 0; font-size: clamp(1.25rem, 3vw, 1.8rem); }
+    header p { margin: 2px 0 0; opacity: .95; }
+    .hero { background: var(--light); padding: 76px 0 68px; }
+    .hero h2 { font-size: clamp(2rem, 5vw, 3.3rem); line-height: 1.12; color: var(--dark); max-width: 760px; margin: 0 0 18px; }
+    .hero p { max-width: 720px; font-size: 1.12rem; margin: 0 0 28px; }
+    .button { display: inline-block; background: var(--green); color: white; text-decoration: none; padding: 13px 20px; border-radius: 8px; font-weight: 700; margin: 4px 8px 4px 0; }
+    .button.secondary { background: white; color: var(--green); border: 2px solid var(--green); }
+    section { padding: 56px 0; }
+    section h2 { color: var(--dark); font-size: 2rem; margin: 0 0 10px; }
+    .intro { max-width: 740px; margin-top: 0; }
+    .services { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 16px; margin-top: 26px; }
+    .service { padding: 22px; border: 1px solid #dce8df; border-radius: 12px; background: white; }
+    .service h3 { margin: 0 0 7px; color: var(--green); }
+    .contact { background: var(--light); }
+    .contact a { color: var(--green); font-weight: 700; }
+    footer { background: var(--dark); color: white; padding: 22px 0; font-size: .95rem; }
+    @media (max-width: 560px) { .hero { padding: 52px 0; } .brand { align-items: flex-start; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap brand">
+      <div class="logo" aria-label="D.H. Logo">D.H.</div>
+      <div>
+        <h1>D.H. Hausmeister &amp; Gartenpflege</h1>
+        <p>Sauber. Zuverlässig. Preiswert!</p>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <h2>Professionelle Dienstleistungen rund um Haus und Garten</h2>
+        <p>D.H. Hausmeister &amp; Gartenpflege bietet professionelle Dienstleistungen rund um Haus und Garten. Wir arbeiten zuverlässig, sorgfältig und termintreu.</p>
+        <a class="button" href="tel:+491793974794">Jetzt anrufen</a>
+        <a class="button secondary" href="mailto:d.h_kontakt@icloud.com">E-Mail schreiben</a>
+      </div>
+    </section>
+
+    <section>
+      <div class="wrap">
+        <h2>Unsere Leistungen</h2>
+        <p class="intro">Wir unterstützen Sie bei der Pflege und Sauberkeit Ihrer Immobilie – zuverlässig und nach Absprache.</p>
+        <div class="services">
+          <article class="service"><h3>Hausmeisterservice</h3><p>Praktische Unterstützung und regelmäßige Betreuung rund um Ihre Immobilie.</p></article>
+          <article class="service"><h3>Garten- und Landschaftspflege</h3><p>Pflege von Grünflächen und Außenanlagen für einen gepflegten Eindruck.</p></article>
+          <article class="service"><h3>Winterdienst</h3><p>Unterstützung bei winterlichen Bedingungen nach individueller Absprache.</p></article>
+          <article class="service"><h3>Fassadenreinigung</h3><p>Reinigung von Fassaden zur Pflege des äußeren Erscheinungsbildes.</p></article>
+          <article class="service"><h3>Fensterreinigung</h3><p>Saubere Fenster und gepflegte Rahmen für klare Sicht.</p></article>
+          <article class="service"><h3>Stein- und Einfahrtsreinigung</h3><p>Reinigung von Steinflächen, Einfahrten und Garageneinfahrten.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="kontakt">
+      <div class="wrap">
+        <h2>Kontakt</h2>
+        <p>Sie möchten ein Angebot anfragen oder einen Termin vereinbaren? Kontaktieren Sie uns gerne.</p>
+        <p><strong>Telefon:</strong> <a href="tel:+491793974794">+49 179 3974794</a></p>
+        <p><strong>E-Mail:</strong> <a href="mailto:d.h_kontakt@icloud.com">d.h_kontakt@icloud.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">D.H. Hausmeister &amp; Gartenpflege · Sauber. Zuverlässig. Preiswert!</div>
+  </footer>
+</body>
+</html>
